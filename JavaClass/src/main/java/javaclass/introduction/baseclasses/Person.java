@@ -8,8 +8,8 @@ import java.util.List;
 
 public class Person {
 	/*
-	 * Access modifiers from the most restrictive to the less retrictive:
-	 * Private: only acess from the same class
+	 * Access modifiers from the most restrictive to the less restrictive:
+	 * Private: only access from the same class
 	 * (Default): access from the same package and class
 	 * Protected: access from child classes and from same package and class
 	 * Public: access from everywhere
@@ -35,7 +35,7 @@ public class Person {
 	}
 	
 	public List<String> getPhones() {
-		// Goog practice: create unmodifiable collections
+		// Good practice: create unmodifiable collections
 		return Collections.unmodifiableList(phones);
 	}
 	

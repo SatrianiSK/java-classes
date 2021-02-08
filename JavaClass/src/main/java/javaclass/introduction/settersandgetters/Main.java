@@ -29,7 +29,7 @@ public class Main {
 		
 		
 		// Here we test the methods to manage the phones.
-		person.addPhone("5555");
+		person.addPhone("8888");
 		person.addPhone("4444");
 		System.out.println("- Manage phones section");
 		System.out.println(person);

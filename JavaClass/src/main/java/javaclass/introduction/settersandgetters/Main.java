@@ -14,7 +14,7 @@ public class Main {
 		// the person but sinc we only return an unmodifiable list trying to change it would throw
 		// an exception.
 		String personName = person.getName();
-		personName = "Rosa";
+		personName = "Karen";
 		System.out.println(personName);
 		
 		int personAge = person.getAge();
